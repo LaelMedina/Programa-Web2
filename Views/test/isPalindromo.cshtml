@@ -6,11 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    @* <script>
-        if(@ViewBag.isPalindromo == true){
-            prompt(The word @ViewBag.word is a palindromo);
+    @* <script type="text/javascript">
+        var isPalindromo = @ViewBag.isPalindromo;
+        if(isPalindromo == "true"){
+            prompt("The word @ViewBag.word is a palindromo");
         }else{
-            prompt(The word @ViewBag.word is not a palindromo);
+            prompt("The word @ViewBag.word is not a palindromo");
         }
     </script> *@
     <p>@ViewBag.result</p>

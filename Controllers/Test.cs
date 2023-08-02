@@ -54,10 +54,14 @@ namespace programs.Controllers
             // Compara la palabra original con la invertida
             if (word == invertedWord)
             {
+                ViewBag.isPalindromo = "true";
+
                 ViewBag.result = "The word -" + word + "- is a palindromo";
             }
             else
             {
+                ViewBag.isPalindromo = "false";
+
                 ViewBag.result = "The word: -" + word + "- is NOT a palindromo";
 
             }
