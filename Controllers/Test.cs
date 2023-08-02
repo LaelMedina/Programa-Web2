@@ -116,9 +116,8 @@ namespace programs.Controllers
             for (int i = 0; i < numero; i++)
             {
                 resultado = calcularSucecion(i);
-                ViewBag.resultado = resultado;
-
             }
+            ViewBag.resultado = resultado;
 
             return View();
         }
@@ -128,7 +127,6 @@ namespace programs.Controllers
             if (numero <= 1)
             {
                 return numero;
-
             }
             else
             {
