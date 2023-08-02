@@ -18665,6 +18665,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\medin\\OneDrive\\Documentos\\Clases Universidad\\Programacion Orientada a la Web II\\t1-introduction-to-mvc\\programs\\Views\\test\\cantidadVocal.cshtml",
+      "TargetPath": "Views\\test\\cantidadVocal.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\medin\\OneDrive\\Documentos\\Clases Universidad\\Programacion Orientada a la Web II\\t1-introduction-to-mvc\\programs\\Views\\ejercicio2\\SearchByPos.cshtml",
       "TargetPath": "Views\\ejercicio2\\SearchByPos.cshtml",
       "FileKind": "mvc"

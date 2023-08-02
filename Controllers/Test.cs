@@ -97,16 +97,22 @@ namespace programs.Controllers
             return View();
         }
 
-        public IActionResult CantidadVocal(string cadena)
+        public IActionResult CantidadVocal(string cadena, char letra)
         {
+            int cantidadLetra = 0;
             cadena = cadena.ToLower();
             char[] arrayCadena = cadena.ToCharArray();
 
             for (int i = 0; i < arrayCadena.Length - 1; i++)
             {
-
+                if (letra == arrayCadena[i])
+                {
+                    cantidadLetra++;
+                }
             }
-
+            ViewBag.cadena = cadena;
+            ViewBag.letra = letra;
+            ViewBag.cantidad = cantidadLetra;
             return View();
         }
 
