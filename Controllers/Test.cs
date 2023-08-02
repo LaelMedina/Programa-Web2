@@ -103,7 +103,7 @@ namespace programs.Controllers
             cadena = cadena.ToLower();
             char[] arrayCadena = cadena.ToCharArray();
 
-            for (int i = 0; i < arrayCadena.Length - 1; i++)
+            for (int i = 0; i < arrayCadena.Length; i++)
             {
                 if (letra == arrayCadena[i])
                 {
