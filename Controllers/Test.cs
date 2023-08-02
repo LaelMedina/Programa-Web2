@@ -8,7 +8,6 @@ using Microsoft.Extensions.Logging;
 
 namespace programs.Controllers
 {
-    // [Route("[controller]")]
     public class Test : Controller
     {
         private readonly ILogger<Test> _logger;
@@ -54,13 +53,13 @@ namespace programs.Controllers
             // Compara la palabra original con la invertida
             if (word == invertedWord)
             {
-                ViewBag.isPalindromo = "true";
+                // ViewBag.isPalindromo = "true";
 
                 ViewBag.result = "The word -" + word + "- is a palindromo";
             }
             else
             {
-                ViewBag.isPalindromo = "false";
+                // ViewBag.isPalindromo = "false";
 
                 ViewBag.result = "The word: -" + word + "- is NOT a palindromo";
 
@@ -87,5 +86,56 @@ namespace programs.Controllers
 
             return View();
         }
+
+        public IActionResult potencia(int a, int b)
+        {
+            double resultado = Math.Pow(a, b);
+            ViewBag.resultado = resultado;
+            ViewBag.a = a;
+            ViewBag.b = b;
+
+            return View();
+        }
+
+        public IActionResult CantidadVocal(string cadena)
+        {
+            cadena = cadena.ToLower();
+            char[] arrayCadena = cadena.ToCharArray();
+
+            for (int i = 0; i < arrayCadena.Length - 1; i++)
+            {
+
+            }
+
+            return View();
+        }
+
+        public IActionResult fibonacci(int numero)
+        {
+            int resultado = 0;
+            for (int i = 0; i < numero; i++)
+            {
+                resultado = calcularSucecion(i);
+                ViewBag.resultado = resultado;
+
+            }
+
+            return View();
+        }
+
+        public int calcularSucecion(int numero)
+        {
+            if (numero <= 1)
+            {
+                return numero;
+
+            }
+            else
+            {
+                return calcularSucecion(numero - 1) + calcularSucecion(numero - 2);
+            }
+        }
+
+
     }
 }
