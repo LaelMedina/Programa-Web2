@@ -1,0 +1,22 @@
+@model programs.Models.Movie //this is the path to the model, this model will  be used to give a data type, so everytime we use the word @Model the compiler will assume that the type of the model is the one after Models.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+   <h6>The person info is the following:</h6>
+   <p><strong>Name:</strong> @ViewBag.myPerson.Name</p>
+   <p><strong>Age:</strong> @ViewBag.myPerson.Age</p>
+   <p><strong>Gender:</strong> @ViewBag.myPerson.Gender</p>
+
+   <p>The title of the movie is: <strong>@Model.Title</strong> </p>
+   
+  
+
+</body>
+</html>
