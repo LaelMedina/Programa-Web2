@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
+using programs.Models; //this is the namespace of the class where the movie model is allocated
+
 namespace programs.Controllers
 {
-    public class Test : Controller
+    public class TestController : Controller
     {
-        private readonly ILogger<Test> _logger;
+        private readonly ILogger<TestController> _logger;
 
-        public Test(ILogger<Test> logger)
+        public TestController(ILogger<TestController> logger)
         {
             _logger = logger;
         }
@@ -27,6 +29,7 @@ namespace programs.Controllers
         {
             return View("Error!");
         }
+
 
         public IActionResult getAverage(float grade1, float grade2, float grade3)
         {
@@ -138,6 +141,48 @@ namespace programs.Controllers
             {
                 return calcularSucecion(numero - 1) + calcularSucecion(numero - 2);
             }
+        }
+
+        public class Person
+        {
+            private int age;
+            private string name = " ";
+            private string gender = " ";
+
+            public int Age
+            {
+                get { return age; }
+                set { age = value; }
+            }
+
+            public string Name
+            {
+                get { return name; }
+                set { name = value; }
+            }
+
+            public string Gender
+            {
+                get { return gender; }
+                set { gender = value; }
+            }
+
+        }
+        public IActionResult getPersonInfo(string name, int age, string gender)
+        {
+            var movie = new Movie()
+            {
+                Title = "Kimi no na wa"
+            };
+
+            Person person = new Person();
+            person.Name = name;
+            person.Age = age;
+            person.Gender = gender;
+
+            ViewBag.myPerson = person;
+
+            return View(movie);
         }
 
 
