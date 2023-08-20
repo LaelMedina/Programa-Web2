@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = c:\Users\medin\OneDrive\Documentos\Clases Universidad\Programacion Orientada a la Web II\t1-introduction-to-mvc\programs
 build_property._RazorSourceGeneratorDebug = 
 
+[c:/Users/medin/OneDrive/Documentos/Clases Universidad/Programacion Orientada a la Web II/t1-introduction-to-mvc/programs/Views/character/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2hhcmFjdGVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/medin/OneDrive/Documentos/Clases Universidad/Programacion Orientada a la Web II/t1-introduction-to-mvc/programs/Views/character/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2hhcmFjdGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Users/medin/OneDrive/Documentos/Clases Universidad/Programacion Orientada a la Web II/t1-introduction-to-mvc/programs/Views/ejercicio1/profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZWplcmNpY2lvMVxwcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

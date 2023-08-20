@@ -362,3 +362,4 @@ C:\Users\medin\OneDrive\Documentos\Clases Universidad\Programacion Orientada a l
 C:\Users\medin\OneDrive\Documentos\Clases Universidad\Programacion Orientada a la Web II\t1-introduction-to-mvc\programs\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\medin\OneDrive\Documentos\Clases Universidad\Programacion Orientada a la Web II\t1-introduction-to-mvc\programs\obj\Debug\net7.0\programs.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\medin\OneDrive\Documentos\Clases Universidad\Programacion Orientada a la Web II\t1-introduction-to-mvc\programs\obj\Debug\net7.0\programs.csproj.CopyComplete
+C:\Users\medin\OneDrive\Documentos\Clases Universidad\Programacion Orientada a la Web II\t1-introduction-to-mvc\programs\bin\Debug\net7.0\Models\Characters.json

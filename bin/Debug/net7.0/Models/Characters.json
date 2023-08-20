@@ -1,0 +1,179 @@
+[
+    {
+      "id": 1,
+      "name": "Mikasa Ackerman",
+      "birthday": "February 10",
+      "age": "19",
+      "gender": "Female",
+      "occupation": "Soldier",
+      "height": "170 cm",
+      "weight": "63 kg",
+      "calification": "1",
+      "affiliation": "Scout Regiment",
+      "poster": "https://aniyuki.com/wp-content/uploads/2021/07/aniyuki-mikasa_ackerman-85.jpg",
+      "images": [
+        "https://i.pinimg.com/originals/4a/4a/2a/4a4a2a243d162d7bdf89acd5f2a459b8.jpg",
+        "https://elcomercio.pe/resizer/7HsfFrmC3owrpnzr_QAjVxIrEb0=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/J3M2YAPVYRBE5DUFMPOQEWOF4I.jpeg",
+        "https://areajugones.sport.es/wp-content/uploads/2020/08/mikasa.jpg",
+        "https://wallpapercave.com/wp/wp8472272.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Reiner Braun",
+      "birthday": "August 1",
+      "age": "21",
+      "gender": "Male",
+      "occupation": "Warrior",
+      "height": "185 cm",
+      "weight": "94 kg",
+      "calification": "2",
+      "affiliation": "Warrior Unit",
+      "poster": "https://cdn.staticneo.com/w/attackontitan/ReinerBraun.png?20131219060150",
+      "images": [
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/d/dc/Reiner_854.jpeg/revision/latest?cb=20230328205220&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/f/f8/Reiner_Braun_850_%28anime%29.png/revision/latest?cb=20170419040914&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/f/f5/Reiner_Braun_854_%28Anime%29.png/revision/latest?cb=20201214025457&path-prefix=es"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bertolt Hoover",
+      "birthday": "April 10",
+      "age": "21",
+      "gender": "Male",
+      "occupation": "Warrior",
+      "height": "192 cm",
+      "weight": "96 kg",
+      "calification": "3",
+      "affiliation": "Warrior Unit",
+      "poster": "https://e1.pxfuel.com/desktop-wallpaper/812/578/desktop-wallpaper-funimation-on-twitter-bertolt-hoover.jpg",
+      "images": [
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/a/a6/Bertolt_Hoover_845_%28anime%29.png/revision/latest?cb=20180919023030&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/0/07/Bertholdt_anime.png/revision/latest?cb=20190514190434&path-prefix=es"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Annie Leonhart",
+      "birthday": "August 22",
+      "age": "21",
+      "gender": "Female",
+      "occupation": "Warrior",
+      "height": "160 cm",
+      "weight": "58 kg",
+      "calification": "4",
+      "affiliation": "Warrior Unit",
+      "poster": "https://e1.pxfuel.com/desktop-wallpaper/173/237/desktop-wallpaper-best-5-annie-leonhart-on-hip.jpg",
+      "images": [
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/f/fe/Annie_Leonhart_845_%28anime%29.png/revision/latest?cb=20180919022502&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/3/32/Annie_anime.png/revision/latest?cb=20171207050515&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/8/80/Annie_Leonhart_854_%28anime%29.png/revision/latest?cb=20220228012634&path-prefix=es"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Eren Jaeger",
+      "birthday": "March 30",
+      "age": "19",
+      "gender": "Male",
+      "occupation": "Soldier",
+      "height": "170 cm",
+      "weight": "63 kg",
+      "calification": "5",
+      "affiliation": "Scout Regiment",
+      "poster": "https://cdn.atomix.vg/wp-content/uploads/2022/05/eren-figura-polemica-1024x436.jpg",
+      "images": [
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/b/b0/Eren_845_%28anime%29.png/revision/latest?cb=20171116012036&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/e/ea/Eren_Jaeger_-_Anime.png/revision/latest?cb=20190429004402&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/c/c7/Capture.PNG/revision/latest?cb=20230325140108&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/6/64/Eren_Jaeger_854_%28Anime%29.png/revision/latest?cb=20210402042845&path-prefix=es"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Jean Kirstein",
+      "birthday": "March 3",
+      "age": "19",
+      "gender": "Male",
+      "occupation": "Soldier",
+      "height": "175 cm",
+      "weight": "68 kg",
+      "calification": "6",
+      "affiliation": "Scout Regiment",
+      "poster": "https://e0.pxfuel.com/wallpapers/587/1023/desktop-wallpaper-jean-kirschtein-anime-attack-on-titan-jean-kirstein.jpg",
+      "images": [
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/d/d8/Jean_HD.png/revision/latest?cb=20181009225136&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/2/29/Jean_Kirstein_854_%28Anime%29.png/revision/latest?cb=20210208023112&path-prefix=es"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Marco Bott",
+      "birthday": "May 16",
+      "age": "19",
+      "gender": "Male",
+      "occupation": "Soldier",
+      "height": "175 cm",
+      "weight": "65 kg",
+      "calification": "7",
+      "affiliation": "Training Corps",
+      "poster": "https://elcomercio.pe/resizer/uSbP8nC8i6GGpceCnm7lS5LUMNs=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/6RRKI7YMQFE4ZNVRW26KJJJLSE.jpg",
+      "images": [
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/c/c6/Marco_Bodt_-_Anime.png/revision/latest?cb=20190514184904&path-prefix=es"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Connie Springer",
+      "birthday": "April 4",
+      "age": "19",
+      "gender": "Male",
+      "occupation": "Soldier",
+      "height": "168 cm",
+      "weight": "62 kg",
+      "calification": "8",
+      "affiliation": "Scout Regiment",
+      "poster": "https://pm1.aminoapps.com/6575/fdc118f49c27547308a40d797c3bd164c8b495fb_00.jpg",
+      "images": [
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/a/a6/Conny_Springer.png/revision/latest?cb=20170509012446&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/b/b8/Connie_Springer_854_%28Anime%29.png/revision/latest?cb=20210308012543&path-prefix=es"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Sasha Blouse",
+      "birthday": "July 16",
+      "age": "19",
+      "gender": "Female",
+      "occupation": "Soldier",
+      "height": "168 cm",
+      "weight": "55 kg",
+      "calification": "9",
+      "affiliation": "Scout Regiment",
+      "poster": "https://e1.pxfuel.com/desktop-wallpaper/820/764/desktop-wallpaper-%CC%97%CC%80%E2%9E%9B-sasha-braus-icons-sasha-braus-icons.jpg",
+      "images": [
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/7/77/Sasha_Blouse_%28anime%29.png/revision/latest?cb=20170916070820&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/f/f3/Sasha_Blouse_854_%28Anime%29.png/revision/latest?cb=20210125035417&path-prefix=es"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Krista Lenz",
+      "birthday": "March 15",
+      "age": "19",
+      "gender": "Female",
+      "occupation": "Soldier",
+      "height": "145 cm",
+      "weight": "42 kg",
+      "calification": "10",
+      "affiliation": "Scout Regiment",
+      "poster": "https://cdn.staticneo.com/w/attackontitan/HistoriaReiss.png",
+      "images": [
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/b/b1/Historia_Reiss_845_%28anime%29.png/revision/latest?cb=20180824012346&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/3/32/Historia_Reiss_%28anime%29.png/revision/latest?cb=20190714070222&path-prefix=es",
+        "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/8/84/Historia_Reiss_854_%28Anime%29.png/revision/latest?cb=20210215041632&path-prefix=es"
+      ]
+    }
+  ]
+  

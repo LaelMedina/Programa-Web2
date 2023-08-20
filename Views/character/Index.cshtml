@@ -1,0 +1,47 @@
+@model List<programs.Models.Character>;
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form class="form-inline" method="POST" action="/Character/Find">
+<div class="form-group mx-sm-3 mb-2">
+<label class="mr-3" for="">Search Movie</label>
+<input type="text" class="form-control" required name="character">
+</div>
+
+<button type="submit" class="btn btn-primary mb-2">Search</button>
+</form>
+
+<div class="row">
+    @foreach(var item in Model){
+    <div class="col-md-4">
+        <div class="card mb-3" style="width: 18rem;">
+            <img src="@item.Poster" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">@item.Name</h5>
+                
+            
+                 @* <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Birthday: </strong> @item.Birthday</li>
+                    <li class="list-group-item"><strong>Age: </strong> @item.Age</li>
+                    <li class="list-group-item"><strong>Gender: </strong> @item.Gender</li>
+                    <li class="list-group-item"><strong>Occupation: </strong> @item.Occupation</li>
+                    <li class="list-group-item"><strong>Height: </strong> @item.Height</li>
+                    <li class="list-group-item"><strong>Weight: </strong> @item.Weight</li>
+                    <li class="list-group-item"><strong>Calification: </strong> @item.Calification</li>
+                    <li class="list-group-item"><strong>Affiliation: </strong> @item.Affiliation</li>
+
+                </ul> *@
+                <div class="card-body">
+                    <a href="/Character/Details/@item.Id" class="card-link">More details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    }
+</div>
+
+<form class="form-inline" method="POST" action="/Character/Index">
+<button type="submit" class="btn btn-primary mb-2">Back</button>
+</form>
+
