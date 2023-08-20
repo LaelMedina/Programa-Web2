@@ -17,6 +17,6 @@ public class Character
     public string? Calification { get; set; }
     public string? Affiliation { get; set; }
     public string? Poster { get; set; }
-
     public string[]? Images { get; set; }
+    public string? Phrase { get; set; }
 }
