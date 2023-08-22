@@ -1,5 +1,9 @@
 @model programs.Models.Character;
 
+@{
+  Layout = "_LayoutPortrait";
+}
+
 <div class="row mb-4">
 <div id="carouselExampleIndicators" class="col-md-8 carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -50,9 +54,3 @@
 </div>
  
 </div>
-
-
-
-<form class="form-inline" method="POST" action="/Character/Index">
-<button type="submit" class="btn btn-primary mb-2">Back</button>
-</form>

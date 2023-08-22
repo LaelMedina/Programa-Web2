@@ -16,13 +16,22 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/Home/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Character" asp-action="Index">List Characters</a>
                         </li>
+                        
                     </ul>
+                    <form class="d-flex" method="POST" action="/Character/Find">
+                        <input class="form-control me-2" type="search" placeholder="Search Character" aria-label="Search" required name="character">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
     </header>
+    
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

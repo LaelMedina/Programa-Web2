@@ -1,37 +1,26 @@
 @model List<programs.Models.Character>;
 @{
-    Layout = "_LayoutIndex";
+    Layout = "_LayoutPortrait";
 }
 
-<form class="form-inline" method="POST" action="/Character/Find">
-<div class="form-group mx-sm-3 mb-2">
-<label class="mr-3" for="">Search Character</label>
-<input type="text" class="form-control" required name="character">
-</div>
-
-<button type="submit" class="btn btn-primary mb-2">Search</button>
-</form>
 
 <div class="row">
-    @foreach(var item in Model){
-    <div class="col-md-4">
-        <div class="card mb-3" style="width: 18rem;">
-            <img src="@item.Poster" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">@item.Name</h5>
-                
-                <p><em>@item.Phrase</em>.</p>
+    @foreach (var item in Model)
+    {
+                            <div class="col-md-4">
+                                <div class="card mb-3" style="width: 18rem;">
+                                    <img src="@item.Poster" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@item.Name</h5>
 
-                <div class="card-body">
-                    <a href="/Character/Details/@item.Id" class="card-link">See info</a>
-                </div>
-            </div>
-        </div>
-    </div>
+                                        <p><em>@item.Phrase</em>.</p>
+
+                                        <div class="card-body">
+                                            <a href="/Character/Details/@item.Id" class="card-link">See info</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
     }
 </div>
-
-<form class="form-inline" method="POST" action="/Home/Index">
-<button type="submit" class="btn btn-primary mb-2">Back</button>
-</form>
 
