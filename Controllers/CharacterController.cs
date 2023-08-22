@@ -25,7 +25,6 @@ public class CharacterController : Controller
     {
         List<Character> lstResultCharacter = new List<Character>();
 
-        //pending, solve the problem about empty strings
         try
         {
             foreach (var item in lstCharacters)

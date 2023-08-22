@@ -1,6 +1,6 @@
 @model List<programs.Models.Character>;
 @{
-    ViewData["Title"] = "Index";
+    Layout = "_LayoutIndex";
 }
 
 <form class="form-inline" method="POST" action="/Character/Find">
@@ -31,7 +31,7 @@
     }
 </div>
 
-<form class="form-inline" method="POST" action="/Character/Index">
+<form class="form-inline" method="POST" action="/Home/Index">
 <button type="submit" class="btn btn-primary mb-2">Back</button>
 </form>
 
