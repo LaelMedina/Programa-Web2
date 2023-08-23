@@ -24180,6 +24180,41 @@
       "FilePath": "c:\\Users\\medin\\OneDrive\\Documentos\\Clases Universidad\\Programacion Orientada a la Web II\\t1-introduction-to-mvc\\programs\\Views\\Student\\Search.cshtml",
       "TargetPath": "Views\\Student\\Search.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\medin\\OneDrive\\Documentos\\Clases Universidad\\Programacion Orientada a la Web II\\t1-introduction-to-mvc\\programs\\Views\\Student\\GetAproved.cshtml",
+      "TargetPath": "Views\\Student\\GetAproved.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\medin\\OneDrive\\Documentos\\Clases Universidad\\Programacion Orientada a la Web II\\t1-introduction-to-mvc\\programs\\Views\\Song\\Create.cshtml",
+      "TargetPath": "Views\\Song\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\medin\\OneDrive\\Documentos\\Clases Universidad\\Programacion Orientada a la Web II\\t1-introduction-to-mvc\\programs\\Views\\Song\\Edit.cshtml",
+      "TargetPath": "Views\\Song\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\medin\\OneDrive\\Documentos\\Clases Universidad\\Programacion Orientada a la Web II\\t1-introduction-to-mvc\\programs\\Views\\Song\\Delete.cshtml",
+      "TargetPath": "Views\\Song\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\medin\\OneDrive\\Documentos\\Clases Universidad\\Programacion Orientada a la Web II\\t1-introduction-to-mvc\\programs\\Views\\Song\\Details.cshtml",
+      "TargetPath": "Views\\Song\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\medin\\OneDrive\\Documentos\\Clases Universidad\\Programacion Orientada a la Web II\\t1-introduction-to-mvc\\programs\\Views\\Song\\Index.cshtml",
+      "TargetPath": "Views\\Song\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\medin\\OneDrive\\Documentos\\Clases Universidad\\Programacion Orientada a la Web II\\t1-introduction-to-mvc\\programs\\Views\\Song\\Search.cshtml",
+      "TargetPath": "Views\\Song\\Search.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }

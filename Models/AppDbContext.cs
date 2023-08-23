@@ -10,5 +10,6 @@ public class AppDbContext : DbContext
     { }
     public DbSet<Character> Characters { get; set; }
     public DbSet<Student> Students { get; set; }
+    public DbSet<Song> Songs { get; set; }
 
 }

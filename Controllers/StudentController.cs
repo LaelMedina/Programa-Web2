@@ -165,4 +165,16 @@ public class StudentController : Controller
         return View("Index", users); // Redirige a la vista "Index" con los resultados de la búsqueda
     }
 
+    public async Task<IActionResult> GetAproved()
+    {
+        IQueryable<Student> userQuery = _context.Students;
+
+        userQuery = userQuery.Where(c => c.Name != null && Convert.ToInt32(c.Calification) >= 60);
+
+        var users = await userQuery.ToListAsync();
+
+        return View(users); // Redirige a la vista "Index" con los resultados de la búsqueda
+    }
+
+
 }
