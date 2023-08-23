@@ -151,4 +151,18 @@ public class StudentController : Controller
         return (_context.Students?.Any(e => e.Id == id)).GetValueOrDefault();
     }
 
+    public async Task<IActionResult> Search(string search)
+    {
+        IQueryable<Student> userQuery = _context.Students;
+
+        if (!string.IsNullOrEmpty(search))
+        {
+            userQuery = userQuery.Where(c => c.Name != null && c.Name.Contains(search));
+        }
+
+        var users = await userQuery.ToListAsync();
+
+        return View("Index", users); // Redirige a la vista "Index" con los resultados de la búsqueda
+    }
+
 }

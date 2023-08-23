@@ -13,6 +13,8 @@ namespace programs.controllers
     {
         private readonly AppDbContext _context;
 
+
+
         public CharactersController(AppDbContext context)
         {
             _context = context;
@@ -21,9 +23,9 @@ namespace programs.controllers
         // GET: Characters
         public async Task<IActionResult> Index()
         {
-              return _context.Characters != null ? 
-                          View(await _context.Characters.ToListAsync()) :
-                          Problem("Entity set 'AppDbContext.Characters'  is null.");
+            return _context.Characters != null ?
+                        View(await _context.Characters.ToListAsync()) :
+                        Problem("Entity set 'AppDbContext.Characters'  is null.");
         }
 
         // GET: Characters/Details/5
@@ -149,14 +151,30 @@ namespace programs.controllers
             {
                 _context.Characters.Remove(character);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool CharacterExists(int id)
         {
-          return (_context.Characters?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.Characters?.Any(e => e.Id == id)).GetValueOrDefault();
+        }
+
+        public async Task<IActionResult> Search(string search)
+        {
+            IQueryable<Character> userQuery = _context.Characters;
+
+            if (!string.IsNullOrEmpty(search))
+            {
+                userQuery = userQuery.Where(c => c.Name != null && c.Name.Contains(search));
+            }
+
+            var users = await userQuery.ToListAsync();
+
+            return View("Index", users); // Redirige a la vista "Index" con los resultados de la búsqueda
         }
     }
+
+
 }

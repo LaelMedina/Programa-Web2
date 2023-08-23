@@ -10,6 +10,14 @@
 
 <h1>List of Characters</h1>
 
+<div class="mb-4">
+    <form asp-action="Search" method="get" class="form-inline justify-content-end">
+        <div class="input-group">
+            <input type="text" class="form-control mr-2" name="Search" placeholder="Search Character">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+</div>
 
 <p>
     <a asp-action="Create">Create New</a>
