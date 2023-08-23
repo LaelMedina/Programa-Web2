@@ -13,13 +13,17 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between py-3">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/Home/Index">Home</a>
+                            <form class="d-flex" method="POST" action="/Home/Index">
+                                <button class="btn btn-outline-primary me-2" type="submit">Home</button>
+                             </form>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Character" asp-action="Index">List Characters</a>
+                            <form class="d-flex" method="POST" action="/Character/Find">
+                                <button class="btn btn-outline-primary me-2" type="submit">List Characters</button>
+                             </form>
                         </li>
                         
                     </ul>

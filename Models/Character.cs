@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -17,6 +18,10 @@ public class Character
     public string? Calification { get; set; }
     public string? Affiliation { get; set; }
     public string? Poster { get; set; }
-    public string[]? Images { get; set; }
     public string? Phrase { get; set; }
+
+    [NotMapped]
+
+    public string[]? Images { get; set; }
+
 }

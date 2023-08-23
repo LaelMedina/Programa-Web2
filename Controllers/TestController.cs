@@ -143,47 +143,8 @@ namespace programs.Controllers
             }
         }
 
-        public class Person
-        {
-            private int age;
-            private string name = " ";
-            private string gender = " ";
 
-            public int Age
-            {
-                get { return age; }
-                set { age = value; }
-            }
 
-            public string Name
-            {
-                get { return name; }
-                set { name = value; }
-            }
-
-            public string Gender
-            {
-                get { return gender; }
-                set { gender = value; }
-            }
-
-        }
-        public IActionResult getPersonInfo(string name, int age, string gender)
-        {
-            var movie = new Movie()
-            {
-                Title = "Kimi no na wa"
-            };
-
-            Person person = new Person();
-            person.Name = name;
-            person.Age = age;
-            person.Gender = gender;
-
-            ViewBag.myPerson = person;
-
-            return View(movie);
-        }
 
 
     }
